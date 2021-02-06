@@ -1,5 +1,5 @@
 ## Quelques extensions pour navigateur
-Suite à des besoins perso lors de ma navigation sur internet je ressent parfois le besoins d'optimiser mon expérience utilisateur.
+Suite à des besoins perso lors de ma navigation sur internet je ressens parfois le besoin d'optimiser mon expérience utilisateur.
 De ce fait j'implémente souvent des petites extensions me permettant d'avoir plus ou moins l'expéreince que j'aimerais avoir.
 
 ### voiranime
