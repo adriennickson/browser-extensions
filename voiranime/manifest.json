@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "voirAnime",
+    "version": "1.0",
+  
+    "description": "Zer!!!",
+  
+    "icons": {
+      "48": "icons/voiranime.jpg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.voiranime.to/anime/one-piece-vf/one-piece*"],
+        "js": ["voiranime.js"],
+        "css": ["voiranime.css"]
+      }
+    ]
+  
+  }

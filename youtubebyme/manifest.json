@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "youtubebyme",
+    "version": "1.1",
+  
+    "description": "Zer!!!",
+  
+    "icons": {
+      "48": "icons/youtubebyme.jpg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/"],
+        "css": ["youtubebyme.css"]
+      }
+    ]
+  
+  }

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "linkedinExtractor",
+  "version": "1.0",
+
+  "description": "PdA",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/linkedinExtractor.jpg",
+      "38": "icons/linkedinExtractor.jpg"
+    },
+    "default_title": "Whereami?",
+    "default_popup": "popup/geo.html"
+  },
+
+  "icons": {
+    "48": "icons/linkedinExtractor.jpg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/in/"],
+      "js": ["extractor.js"],
+      "css": ["extractor.css"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ytd-browse[page-subtype="home"] {
+    display: none! important;
+}
+ytd-watch-next-secondary-results-renderer {
+    display: none! important;
+}
+div#items.style-scope.ytd-watch-next-secondary-results-renderer{
+    display: none! important;
+}
+ytd-watch-next-secondary-results-renderer.style-scope.ytd-watch-flexy{
+    display: none! important;
+}
